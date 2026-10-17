@@ -359,3 +359,13 @@ p {
         font-size: 14px;
     }
 }
+
+.footer a {
+    color: #f5a04a;
+}
+
+.footer .note {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-top: 6px;
+}
