@@ -78,7 +78,7 @@ p {
 /* ---------- Home / Hero ---------- */
 .hero {
     /* hero image + dark overlay so the text stays readable */
-    background: linear-gradient(rgba(23, 19, 50, 0.45), rgba(23, 19, 50, 0.45)), url("images/hero.jpg") center / cover no-repeat;
+    background: linear-gradient(rgba(23, 19, 50, 0.45), rgba(23, 19, 50, 0.45)), url("hero.png") center / cover no-repeat;
     background-color: #7a3b69;
     color: #ffffff;
     text-align: center;
