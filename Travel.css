@@ -369,3 +369,89 @@ p {
     opacity: 0.8;
     margin-top: 6px;
 }
+
+/* ---------- More projects ---------- */
+.more {
+    background-color: #f7f2e9;
+}
+
+.more-card {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    max-width: 640px;
+}
+
+.more-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.more-card img {
+    width: 220px;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+.more-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px 18px 16px 0;
+}
+
+.more-text small {
+    color: #e8832a;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.more-text strong {
+    font-size: 20px;
+    color: #17434b;
+}
+
+.more-text em {
+    margin-top: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: #17434b;
+}
+
+.more-links {
+    margin-top: 22px;
+}
+
+.more-links a {
+    display: inline-block;
+    margin: 0 14px 8px 0;
+    color: #17434b;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .more-card {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .more-card img {
+        width: 100%;
+        height: 150px;
+        aspect-ratio: auto;
+        align-self: stretch;
+    }
+
+    .more-text {
+        padding: 14px 16px 16px;
+    }
+}
